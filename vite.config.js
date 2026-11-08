@@ -9,8 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        tokenUI: resolve(__dirname, "token-ui.html"),
-        tracker: resolve(__dirname, "tracker.html")
+        tokenUI: resolve(__dirname, "token-ui.html")
       }
     }
   }

@@ -1,16 +1,12 @@
 {
-  "name": "Quick-Initiative",
-  "private": true,
+  "name": "Quick Initiative",
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "@owlbear-rodeo/sdk": "^2.0.0"
-  },
-  "devDependencies": {
-    "vite": "^5.0.0"
+  "manifest_version": 1,
+  "action": {
+    "title": "Roll All Initiatives",
+    "icon": "/icon.svg",
+    "popover": "/",
+    "width": 300,
+    "height": 150
   }
 }
